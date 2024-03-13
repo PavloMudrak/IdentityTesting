@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bjgIgQtyVP2yTEOaOlWDNMYkn3lDf/p0Q3CJAuC4pjKzapZNQtbt0p7K/75zhLZ8mvCixeMqUncuLG6gMBwxDA==",
+  "dgSpecHash": "ilWHuowxuUX3zTBa4AMMsO7nw2xBcC7RxBoqY4cHa/Gdf8LApSC8xSNrawAsBBo19e2j/x7jHZBUdm/eTHcXmw==",
   "success": true,
-  "projectFilePath": "C:\\PAVLO\\Projects\\Udemy\\Identity.Web\\Application\\Identity.Application.csproj",
+  "projectFilePath": "C:\\PAVLO\\Projects\\Udemy\\testingIdentityGit\\Application\\Identity.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pavlo\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\pavlo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

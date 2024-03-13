@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rIIKYGfv1+nakJ10h9Ltg0u2BYEK3S+bi67X2BFaCGRWBSsBEuKpZUAvfB3Dc+rZkE16uyD0wOOxI9de44htBQ==",
+  "dgSpecHash": "T7lKbZXhlCnYbUePBT0QWkM6aB5CNuT5E/NO+Fp0CaSX1PXsrdb6lRAJ2Kthn+tVayqwbSPxaIrx54/5/WQYxg==",
   "success": true,
-  "projectFilePath": "C:\\PAVLO\\Projects\\Udemy\\Identity.Web\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+  "projectFilePath": "C:\\PAVLO\\Projects\\Udemy\\testingIdentityGit\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pavlo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
     "C:\\Users\\pavlo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PAVLO\\Projects\\Udemy\\Identity.Web\\Application\\Identity.Application.csproj": {}
+    "C:\\PAVLO\\Projects\\Udemy\\testingIdentityGit\\Application\\Identity.Application.csproj": {}
   },
   "projects": {
-    "C:\\PAVLO\\Projects\\Udemy\\Identity.Web\\Application\\Identity.Application.csproj": {
+    "C:\\PAVLO\\Projects\\Udemy\\testingIdentityGit\\Application\\Identity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PAVLO\\Projects\\Udemy\\Identity.Web\\Application\\Identity.Application.csproj",
+        "projectUniqueName": "C:\\PAVLO\\Projects\\Udemy\\testingIdentityGit\\Application\\Identity.Application.csproj",
         "projectName": "Identity.Application",
-        "projectPath": "C:\\PAVLO\\Projects\\Udemy\\Identity.Web\\Application\\Identity.Application.csproj",
+        "projectPath": "C:\\PAVLO\\Projects\\Udemy\\testingIdentityGit\\Application\\Identity.Application.csproj",
         "packagesPath": "C:\\Users\\pavlo\\.nuget\\packages\\",
-        "outputPath": "C:\\PAVLO\\Projects\\Udemy\\Identity.Web\\Application\\obj\\",
+        "outputPath": "C:\\PAVLO\\Projects\\Udemy\\testingIdentityGit\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

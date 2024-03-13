@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jir6cR0uvusKkMv57GU5D0qnMVo5oNBFwvaD62UeCuw1+dlvfemc4N2+00d56KgzmzM159OICEql8Gw2DTPdpA==",
+  "dgSpecHash": "Hg6lVTGvqrPcQTMGr9veH1eYqDdSQlJzF0RES5UpSHmm28HZLRCevFqtIGA8p6zZxOB+tHGITF8sczTBl5RF5Q==",
   "success": true,
-  "projectFilePath": "C:\\PAVLO\\Projects\\Udemy\\Identity.Web\\Identity.Web\\Identity.Web.csproj",
+  "projectFilePath": "C:\\PAVLO\\Projects\\Udemy\\testingIdentityGit\\Identity.Web\\Identity.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pavlo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pavlo\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
