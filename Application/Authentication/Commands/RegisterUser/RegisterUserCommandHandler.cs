@@ -37,9 +37,10 @@ namespace Identity.Application.Authentication.Commands.RegisterUser
                 UserName = request.Record.UserName
             };
             
-            var result = await _userManager.CreateAsync(user, request.Record.Password);
-            var result1 = await _userManager.AddToRoleAsync(user, request.Record.Role);
-            if (!result.Succeeded)
+            //перевірити роль
+            var createResult = await _userManager.CreateAsync(user, request.Record.Password);
+            var addToRoleresult = await _userManager.AddToRoleAsync(user, request.Record.Role);
+            if (!createResult.Succeeded && !addToRoleresult.Succeeded)
             {
                 throw new InvalidOperationException("Something went wrong");
             }
