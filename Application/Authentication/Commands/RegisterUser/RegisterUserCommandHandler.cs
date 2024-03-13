@@ -25,6 +25,10 @@ namespace Identity.Application.Authentication.Commands.RegisterUser
         public async Task Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
             var userExist = await _userManager.FindByEmailAsync(request.Record.Email);
+            if(userExist == null)
+            {
+                // створити ексепшн
+            }
         }
     }
 }
