@@ -25,9 +25,23 @@ namespace Identity.Application.Authentication.Commands.RegisterUser
         public async Task Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
             var userExist = await _userManager.FindByEmailAsync(request.Record.Email);
-            if(userExist == null)
+            if(userExist != null)
             {
                 // створити ексепшн
+            }
+
+            IdentityUser user = new IdentityUser()
+            {
+                Email = request.Record.Email,
+                SecurityStamp = Guid.NewGuid().ToString(),
+                UserName = request.Record.UserName
+            };
+            
+            var result = await _userManager.CreateAsync(user, request.Record.Password);
+            var result1 = await _userManager.AddToRoleAsync(user, request.Record.Role);
+            if (!result.Succeeded)
+            {
+                throw new InvalidOperationException("Something went wrong");
             }
         }
     }
