@@ -550,8 +550,11 @@
       },
       "Identity.Application/1.0.0": {
         "dependencies": {
+          "Identity.Infrastructure": "1.0.0",
           "MediatR": "12.2.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Identity.Stores": "6.0.0"
         },
         "runtime": {
           "Identity.Application.dll": {}

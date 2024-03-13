@@ -22,3 +22,6 @@ C:\PAVLO\Projects\Udemy\testingIdentityGit\Application\obj\Debug\net6.0\Identity
 C:\PAVLO\Projects\Udemy\testingIdentityGit\Application\obj\Debug\net6.0\refint\Identity.Application.dll
 C:\PAVLO\Projects\Udemy\testingIdentityGit\Application\obj\Debug\net6.0\Identity.Application.pdb
 C:\PAVLO\Projects\Udemy\testingIdentityGit\Application\obj\Debug\net6.0\ref\Identity.Application.dll
+C:\PAVLO\Projects\Udemy\testingIdentityGit\Application\bin\Debug\net6.0\Identity.Infrastructure.dll
+C:\PAVLO\Projects\Udemy\testingIdentityGit\Application\bin\Debug\net6.0\Identity.Infrastructure.pdb
+C:\PAVLO\Projects\Udemy\testingIdentityGit\Application\obj\Debug\net6.0\Identity.Application.csproj.CopyComplete
