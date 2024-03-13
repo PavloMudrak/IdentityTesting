@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 
 namespace Identity.Application.Authentication.Queries.Login
 {
-    public record GetLoginTokenQuery(LoginModelDto Record) : IRequest<string>;
+    public record GetLoginTokenQuery(LoginModelDto Record) : IRequest<JwtModelDto>;
 }
