@@ -26,12 +26,13 @@ namespace Identity.Web.Controllers
             return this.Ok();
         }
 
-        [HttpGet("login")]
+        [HttpPost("login")]
         [ProducesResponseType(typeof(LoginModelDto), StatusCodes.Status200OK)]
         public async Task<IActionResult> Login([FromBody] LoginModelDto request)
         {
             var token = await this.sender.Send(new GetLoginTokenQuery(request));
             return this.Ok(token);
         }
+
     }
 }
